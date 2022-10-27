@@ -766,7 +766,8 @@ def cleanSimplify(prepositionSplited):
 def analize(variaveis):
     simbols = ['(', ')', 'v', '^', '>', '<', '=', '-']
     print("Simbolos aceites: ", simbols)
-
+    print("AVISO: Escreva a proposicao separada por espacos e com os parenteses adequados!\n \
+      Cada operador binario encapsulado em parenteses por precaucao!")
     preposition = input("Preposicao: ")
     prepositionSplited = preposition.split(" ")
 
